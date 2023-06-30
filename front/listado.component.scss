@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+ul{
+    color:rgb(24, 47, 48);
+    font-family: 'Belanosima', sans-serif;
+    background:url(../../../assets/fondo.jpg);
+    width: 95vw;
+    height: 215vh;
+    display:flex ;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10rem;
+    gap: 30px;
+padding-right: 38px;
+    li{background-color: rgb(195, 219, 227);
+        border-radius: .7rem;
+        width: 19rem;
+        height: 27rem;
+        img{
+            padding-top: 1.5rem;
+            padding-left: 2rem;
+            float: left;
+            width: 15rem;
+            height: 20rem;
+            object-fit: cover;
+        }
+    }
+
+    .texto-foto{
+        
+        padding-left: 5rem;
+    }
+    .precio-foto{
+        padding-left: 8rem; 
+    }
+
+}
+
+
+.boton{
+    
+    padding: 15px 105px;
+}
+ 
+button{
+    background: #F8E3DE;
+    color: rgb(32, 51, 60);
+    cursor: pointer;
+    border:none ;
+    border-radius: 1rem;
+    height: 1.5rem;
+    width: 5rem;
+}
+
+button:hover{
+    color: aliceblue;
+    background: #cbabd6 ;
+}

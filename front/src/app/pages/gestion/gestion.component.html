@@ -1,0 +1,20 @@
+<form class="formulario" [formGroup]="dulcesForm" (ngSubmit)="onSubmit()">
+    <div class="box">
+        <input class="input" formControlName="name" placeholder="name">
+        <input class="input" formControlName="img" placeholder="img">
+        <input class="input" formControlName="precio" placeholder="precio">
+
+        <button type="submit" [disabled]="!dulcesForm.valid">Submit</button>
+    </div>
+
+    <div class="logo-box">
+        <img class="logo" src="../../../assets/logopqueño.png">
+    </div>
+</form>
+
+
+<figure>
+
+    <img src="{{newDulces.img}}">
+    <figcaption>{{newDulces.name}}</figcaption>
+</figure>

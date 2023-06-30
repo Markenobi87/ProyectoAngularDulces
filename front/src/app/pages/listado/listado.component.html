@@ -1,0 +1,23 @@
+<div class="barra"></div>
+
+<ul>
+
+    <li *ngFor="let dulces of dulcesList">
+
+        <img referrerpolicy="no-referrer" src="{{dulces.img}}" alt="{{dulces.titulo}}">
+
+
+
+
+        <h4 class="texto1">{{dulces.titulo}}</h4>
+        <h4 class="texto2">{{dulces.precio}} <i class='bx bx-euro'></i></h4>
+
+
+
+
+
+        <div class="boton">
+            <button routerLink="/dulces/{{dulces.id}}">Ver</button>
+        </div>
+    </li>
+</ul>

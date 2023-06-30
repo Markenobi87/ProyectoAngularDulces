@@ -1,0 +1,18 @@
+<div class="cajapadre">
+
+    <img class="nuevasfotos" referrerpolicy="no-referrer" src="{{detalle.img}}" alt="{{detalle.titulo}}">
+
+
+    <div class="text">
+        <h4>{{detalle.titulo}}</h4>
+        <h4 class="text2">{{detalle.precio}}</h4>
+    </div>
+
+
+    <div class="button">
+        <button class="bo" (click)="deleteDetalle()">Eliminar</button>
+        <button class="bo" (click)="modifyItem(detalle)">Editar</button>
+        <button class="bo" routerLink="/">Volver</button>
+    </div>
+
+</div>

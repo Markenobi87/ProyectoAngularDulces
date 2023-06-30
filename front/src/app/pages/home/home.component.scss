@@ -1,0 +1,56 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat+Alternates:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
+.home-text{
+    width: 100vw;
+    height: 1vh;
+    background-color: rgb(247, 233, 172);
+  
+}
+
+
+
+   
+.circle-container{
+    position: relative;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    width: 100vw;
+    height: 100vh;
+    background: url(../../../assets/foto1.jpg);
+
+   }
+
+   .circle {
+    width: 400px;
+    height: 400px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #a5a5a58c;
+}
+
+h1{
+    width: 600px;
+    color: rgb(248, 240, 226);
+    font-family: 'Delicious Handrawn', cursive;
+    position: absolute;
+    padding-top: 4rem;
+    font-size:6rem;
+    display: flex;
+    text-align: center;
+    letter-spacing: 5px;
+    
+   
+}
+
+
+
+h1:hover{
+    font-size: 7rem;
+}

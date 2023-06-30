@@ -1,0 +1,57 @@
+.formulario{
+    background:url(../../../assets/fondo.jpg);
+    width: 100vw;
+    height: 90vh;
+    padding-top: 100px;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+
+.box{
+
+   box-shadow: 20px 20px 50px grey;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 30px;
+    background-color: #a0bdc4;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.input{
+   outline: none;
+   border:none ;
+   border-radius: 10px;
+    padding: 10px;
+   }
+
+
+ button{
+   border: solid white;
+    border-radius: 20px;
+    width: 100px;
+ }   
+
+.logo-box{
+   padding-top: 150px;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+}
+
+
+
+ button:hover{
+    background-color: #FBDFDB;
+    cursor: pointer;
+ }
+
+ .logo{
+   
+   width: 400px;
+  
+ }

@@ -1,0 +1,65 @@
+
+
+
+.caja-nav{
+  width: 100vw;
+    height: 120px;
+  background: linear-gradient(70deg,#958F9B, rgb(255, 232, 169));
+}
+.caja-nav:hover{
+  background: linear-gradient(70deg, rgb(255, 232, 169), rgb(131, 212, 218)); 
+}
+
+
+a{color: rgb(26, 62, 73);
+    padding: 1px 40px 7px 40px;
+   border-left: 2px solid  rgb(11, 83, 141);
+   text-decoration: none;
+ }  
+   a:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 9px rgb(6, 105, 109);
+    background-color: #0eb2b450;
+    border-left: 2px solid  rgb(86, 186, 253);
+    border-radius: 10px;
+    
+    
+    
+  
+   
+   }
+
+
+.menu{
+    
+    gap: 20px;
+    font-size: 1.4rem;
+    padding-top: 65px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.icons{
+display: flex;
+justify-content: flex-end;
+padding-right: 30px;
+gap: 4px;    
+  
+ }
+
+.icons:hover{
+  color: rgb(172, 91, 238);
+}
+
+
+nav:hover{
+    cursor: pointer;
+    color: #234c4d;
+    
+  
+  
+}
+

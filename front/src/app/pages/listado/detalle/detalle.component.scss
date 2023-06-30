@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic&family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap');
+
+
+.cajapadre{
+  font-family: 'Montserrat', sans-serif;
+  background: url(../../../../assets/foto9.jpg);
+  background-size: cover;
+  
+width: 100vw;
+height: 100vh;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nuevasfotos{
+  border: 10px solid rgba(61, 146, 202, 0.39);
+  border-radius: .3rem;
+  width: 20rem;
+    
+}
+
+
+.text2{
+  padding-top: 1rem;
+  display: flex;
+  align-items:center ;
+  align-content: center;
+  justify-content: center;
+}
+
+.text{
+  padding-top: 1.2rem;
+font-size: 1.3rem;
+}
+
+
+.button{
+  padding: 20px 30px 10px 30px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.205);
+}
+
+.bo{ 
+  padding: 3px 10px;
+  margin-bottom: 10px;
+  width: 90px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 30px;
+  margin-left: 9px;
+  cursor: pointer;
+  color: rgb(34, 67, 97);
+  background:linear-gradient(70deg,rgb(140, 216, 212), pink);
+  
+
+}
+
+.bo:hover{
+  background:linear-gradient(70deg,rgb(99, 161, 158), rgb(192, 138, 147));
+  color: azure;
+}
