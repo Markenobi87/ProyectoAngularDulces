@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class ServiceService {
-db_url:string = " http://localhost:3000/Dulces";
+db_url:string = "https://dulces-solo-api.vercel.app/Dulces";
 
 public  dulcesData ={
   name:"",
